@@ -35,7 +35,7 @@ console.log(`私は${me.name}で${me.age}歳で、身長は${me.high}cmです`);
 function getPeroson(peroson){
     console.log(`私は${peroson.name}で${peroson.age}歳で、身長は${peroson.high}cmです`);
 }
-getPeroson(parent);
+getPeroson(me);
 
 function a (b,c){
     return b*c/2
